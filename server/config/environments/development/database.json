@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "brewhaha-9gbok.mongodb.net",
+        "port": 27017,
+        "database": "test",
+        "username": "yurikbv",
+        "password": "tww010939",
+        "srv": true
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
